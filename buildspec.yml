@@ -1,4 +1,7 @@
 version: 0.2
-artifacts:
-  files:
-    -  README.md
+proxy:
+  upload-artifacts: yes
+  logs: yes
+phases:
+  build:
+    commands:
