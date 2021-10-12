@@ -1,7 +1,12 @@
-version: 0.0
-os: linux
-files:
-  - source: /index.php
-    destination: /var/www/html/index.php
-hooks:
+version: 0.1
 
+phases:
+  install:
+    runtime-versions:
+        php: 7.3
+  build:
+    commands:
+      - php --version
+artifacts:
+  files:
+    -  README.md
