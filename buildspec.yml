@@ -3,3 +3,5 @@ os: linux
 files:
   - source: /index.php
     destination: /var/www/html/index.php
+hooks:
+
